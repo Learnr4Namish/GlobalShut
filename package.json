@@ -1,0 +1,58 @@
+{
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.1",
+    "connect-busboy": "^1.0.0",
+    "cors": "^2.8.5",
+    "desktop-screenshot": "^0.1.1",
+    "dns": "^0.2.2",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "gtts": "^0.2.1",
+    "js-camera": "^1.0.4",
+    "lite-http-tunnel": "^0.2.0",
+    "localtunnel": "^2.0.2",
+    "multer": "^1.4.5-lts.1",
+    "ngrok": "^4.3.3",
+    "nkpl": "^3.6.0",
+    "node-cloudflared-tunnel": "^1.0.10",
+    "node-webcam": "^0.8.1",
+    "nodemailer": "^6.9.1",
+    "npm": "^9.6.1",
+    "open": "^8.4.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.8.1",
+    "pdf-creator-node": "^2.3.5",
+    "pkg": "^5.8.1",
+    "qrcode": "^1.5.1",
+    "readline": "^1.3.0",
+    "systeminformation": "^5.17.12"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "globalshut",
+  "description": "Welcome back! Excited to see you to use GlobalShut!\r # Compatibility\r Currently, The Open-Source GlobalShut is only compatible with Windows 7 and above. Though this is one of its greatest disadvantages, It has many features that can help us significantly.\r # Installing GlobalShut\r You can't install GlobalShut on your device but you can download Its source code and set the environment variables to run it. But first, you must have NodeJS Installed to get started.\r # Setting the Environment variables\r First, You have to create an <a href=\"https://dashboard.ngrok.com/signup\">NGROK account</a> and then you have to follow the following steps:-\r # Steps\r Step 1.\r In the first step, You must have logged in to your NGROK account. Click the Auth token option in the menu like the image below:-\r <img src=\"./step1.png\">\r <br>\r Step 2.\r Now, You have to get the secret token from your NGROK account from the top of the page like the image below. Copy it.\r <br>\r <img src=\"./step2.png\">\r <br>\r Step 3.\r You must install all the modules and APIs used by executing the command <code>npm install</code>.\r <br>\r Step 4. Use the token from your NGROK account when asked for.\r <h1>NOTICE!</h1>\r Do not share this token with anyone else. Doing so may destroy your NGROK account. GlobalShut doesn't share your NGROK token to anyone else.\r Thank you!",
+  "version": "3.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learnr4Namish/GlobalShut.git"
+  },
+  "keywords": [
+    "Shutdown_Software",
+    "Namish_Kumar",
+    "Open_Source",
+    "DAV"
+  ],
+  "author": "namish_developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Learnr4Namish/GlobalShut/issues"
+  },
+  "homepage": "https://github.com/Learnr4Namish/GlobalShut#readme"
+}
